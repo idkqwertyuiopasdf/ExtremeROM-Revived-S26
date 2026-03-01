@@ -13,23 +13,19 @@ diff --git a/smali_classes6/com/samsung/android/rune/CoreRune.smali b/smali_clas
 index 6af0829b..e17bed3c 100644
 --- a/smali_classes6/com/samsung/android/rune/CoreRune.smali
 +++ b/smali_classes6/com/samsung/android/rune/CoreRune.smali
-@@ -2622,7 +2622,7 @@
-     :goto_a
-     sput-boolean v0, Lcom/samsung/android/rune/CoreRune;->FW_WORKAROUND_RESPONSE_SPEED_LOW:Z
+@@ -151,11 +151,11 @@
+     :goto_30
+     sput-boolean v12, Lcom/samsung/android/rune/CoreRune;->MW_SUPPORT_DRAG_AND_DROP_CAPTURED_BLUR:Z
  
--    const-string/jumbo v0, "ro.product.device"
-+    const-string/jumbo v0, "ro.product.vendor.device"
+-    const-string v12, "None"
++    const-string v12, "unknown"
  
-     invoke-static {v0}, Landroid/os/SystemProperties;->get(Ljava/lang/String;)Ljava/lang/String;
+-    const-string/jumbo v14, "ro.product.model"
++    const-string/jumbo v14, "ro.product.vendor.model"
  
-@@ -4446,7 +4446,7 @@
+     invoke-static {v14, v12}, Landroid/os/SystemProperties;->get(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
  
-     if-eqz v0, :cond_3b
- 
--    const-string/jumbo v0, "ro.product.model"
-+    const-string/jumbo v0, "ro.product.vendor.model"
- 
-     invoke-static {v0}, Landroid/os/SystemProperties;->get(Ljava/lang/String;)Ljava/lang/String;
+     move-result-object v12
  
 -- 
 2.51.0
