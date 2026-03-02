@@ -1,8 +1,11 @@
 # ExtremeROM changelog
-
+# 3.0.7 (Unofficial)
+- Switch to Galaxy S26 base (thx Devcore for essi_64.sh and download_fw.sh)
+- Re-added p3s support
+- Re-added exynos2100 platform
 # 3.0.6
 - This update was made possible thx to @Ghasemzadehfard-Dev
-- Fix SvstemUI crash on r8s (thx @GhasemzadehFard-Dev)
+- Fix SystemUI crash on r8s (thx @GhasemzadehFard-Dev)
 - Fix Termux Crash (thx @chasemzadehFard-Dev)
 - Add RAM Plus fully to r8s (thx @GhasemzadehFard-Dev)
 - Add S26U fake device image
