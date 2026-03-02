@@ -22,14 +22,13 @@ It's based on the latest and greatest iteration of Samsung's UX and it also incl
 
 It is based on the UN1CA build system which allows automatic downloading/extraction of the firmware, applying the required patches and generating a flashable zip package for the specified target device.
 
-ExtremeROM Quant supports devices using the Exynos 990 SoC
+ExtremeROM Quant supports devices using the Exynos 2100,990 SoC(s)
 
 Any form of contribution, suggestions, bug report or feature request for the project will be welcome.
 
 # Features
-- Based on the latest stable OneUI 8 Galaxy S25 FE firmware
-- All software features from S25 FE
-- S25 Ultra CSC, ringtones and more
+- Based on the latest stable OneUI 8.5 Galaxy S26 firmware
+- All software features from S26
 - Moderately Debloated
 - Heavily DeKnoxed
 - Full SELinux Support
@@ -141,7 +140,7 @@ A big thanks goes to the following for their invaluable contributions in no part
 - 990 Kernel Source Code (Maintainer: @ExtremeXT): https://github.com/Android-Artisan/android_kernel_samsung_exynos990
 - 990 Device Tree Code (Maintainer: @ExtremeXT): https://github.com/Android-Artisan/android_device_samsung_exynos990
 - 2100 Kernel Source Code (Maintainer: @xfwdrev/@maximusXZ): https://github.com/xfwdrev/android_kernel_samsung_ex2100
-- 2100 Device Tree Code (Maintainer: @xfwdrev/@maximusXZ): https://github.com/Android-Artisan/android_device_samsung_exynos2100
+- 2100 Device Tree Code (Maintainer: @xfwdrev/@maximusXZ): https://github.com/xfwdrev/android_device_samsung_exynos2100
 
 # Stargazers over time
 [![Stargazers over time](https://starchart.cc/ArtisanROM/ExtremeROM-Revived.svg?variant=adaptive)](https://starchart.cc/ArtisanROM/ExtremeROM-Revived)
