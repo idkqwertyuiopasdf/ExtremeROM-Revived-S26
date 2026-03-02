@@ -1,6 +1,12 @@
 List of maintainers
 -------------------
 
+Exynos 2100
+M: Fred (@xfwdrev)
+S: Maintained
+F: platform/exynos2100/*
+F: target/p3s/*
+
 Exynos 990
 M: ExtremeXT (@ExtremeXT) OG
 M: Giulia (@Android-Artisan)
