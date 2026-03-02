@@ -27,8 +27,8 @@ ExtremeROM Quant supports devices using the Exynos 2100,990 SoC(s)
 Any form of contribution, suggestions, bug report or feature request for the project will be welcome.
 
 # Features
-- Based on the latest stable OneUI 8.5 Galaxy S26 firmware
-- All software features from S26
+- Based on the latest stable OneUI 8.5 Galaxy S26 firmware.
+- All software features from S26.
 - Moderately Debloated
 - Heavily DeKnoxed
 - Full SELinux Support
@@ -55,7 +55,7 @@ Any form of contribution, suggestions, bug report or feature request for the pro
 - More that I can't remember right now and will have to be added in the future
 
 # Bugs
-See the <a href="https://github.com/ArtisanROM/ExtremeROM-Revived/issues">⚠ Issues</a> tab
+p3s:Most stuff in camera, some minor lag.
 
 # Licensing
 This project is licensed under the terms of the [GNU General Public License v3.0](LICENSE). External dependencies might be distributed under a different license, such as:
